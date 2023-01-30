@@ -1,0 +1,31 @@
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+
+    .nav-link {
+        @include textdesign(20px, $ff_nunito, 600, #944bff);
+        margin-top: 50px;
+        margin-right: 50px;
+        transition: .4s;
+        border-radius: 20px;
+
+        &:hover {
+            color: #ff39dc;
+        }
+    }
+
+    .nav_icons {
+        margin-top: 50px;
+
+        a {
+            @include textdesign(20px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            margin-right: 20px;
+            @include btn_design;
+        }
+    }
+}

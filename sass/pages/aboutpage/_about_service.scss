@@ -1,0 +1,27 @@
+.about_service_text{
+    margin-top: 75px;
+    h4{
+        @include textdesign(16px,400,$ff_nunito,#ffffff);
+        line-height: 26px;
+    }
+    p{
+        @include textdesign(16px,400,$ff_nunito,#ffffff);
+        line-height: 26px;
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    a{
+        @include textdesign(24px, $ff_anton, 400, #fff);
+        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+        @include btn_design;
+    }
+    .watch_demo{
+        background: transparent;
+        box-shadow: none;
+        &:hover{
+            background: transparent;
+            box-shadow: none;
+            color: #ff39dc;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@mixin textdesign($f_size, $f_family, $f_weight, $f_color) {
+    font-size: $f_size;
+    font-family: $f_family;
+    font-weight: $f_weight;
+    color: $f_color;
+}
+
+@mixin btn_design() {
+    padding: 10px 20px;
+    background-color: #8032e6;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 0px #3a0090;
+    -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+    -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+    transition: .4s;
+
+    &:hover {
+        background-color: #ff39dc;
+        box-shadow: 0px 3px 5px 0px #661355;
+        -webkit-box-shadow: 0px 5px 5px 0px #661355;
+        -moz-box-shadow: 0px 5px 5px 0px #661355;
+    }
+}
+
+@mixin subscription_title(){
+    @include textdesign(32px, $ff_anton, 400, #fff);
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+}

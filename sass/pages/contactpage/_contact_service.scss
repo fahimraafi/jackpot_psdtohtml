@@ -1,0 +1,83 @@
+#contact_service_part{
+    background: url(../images/contact_service_img.jpg);
+    padding-top: 250px;
+    padding-bottom: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .process_part{
+        position: relative  ;
+        .process_items{
+            background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+            border-radius: 5px;
+            position: absolute;
+            left: 0;
+            top: -353px;
+            width: 100%;
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+            .processes{
+                background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+                padding: 45px 0;
+                .step_number{
+                    h3{
+                        @include textdesign(50px,$ff_anton,400,#fcb100);
+                        text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+                    }
+                }
+                .step_criteria{
+                    margin-top: 27px;
+                    margin-bottom: 17px;
+                    h4{
+                        @include textdesign(32px, $ff_anton, 400, #fff);
+                        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+                    }
+                }
+                .step_text{
+                    p{
+                        @include textdesign(16px,$ff_nunito,400,#ffffff)
+                    }
+                }
+            }
+            
+        }
+    }
+    .contact_info_icon{
+        a{
+            height: 100px;
+            width: 100px;
+            background-color: #8032e6;
+            border-radius: 5px;
+            box-shadow: 0px 3px 5px 0px #3a0090;
+            -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+            -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+            transition: .4s;
+            font-size: 40px;
+            color:#ffffff;
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            position: relative;
+            i{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &:hover{
+                background-color: #ff39dc;
+                box-shadow: 0px 3px 5px 0px #661355;
+                -webkit-box-shadow: 0px 5px 5px 0px #661355;
+                -moz-box-shadow: 0px 5px 5px 0px #661355;
+            }
+        }
+    }
+    .contact_info_text{
+        h3{
+            @include textdesign(24px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+        }
+        p{
+            @include textdesign(20px,$ff_nunito,400,#ffffff);
+            padding-top: 25px;
+            line-height: 26px;
+        }
+    }
+}

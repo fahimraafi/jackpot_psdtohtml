@@ -1,0 +1,27 @@
+#spin_part{
+    background: $bg_a;
+    padding: 100px 0 57px 0;
+    .free_spin_text{
+        .free_spin_heading{
+            margin-top: 20px;
+        }
+        h3{
+            @include textdesign(16px,400,$ff_nunito,#ffffff);
+            line-height: 26px;
+            padding-left: 70px;
+        }
+        p{
+            @include textdesign(16px,400,$ff_nunito,#ffffff);
+            line-height: 26px;
+            padding-left: 70px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        a{
+            @include textdesign(24px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            @include btn_design;
+            margin-left: 70px;
+        }
+    }
+}

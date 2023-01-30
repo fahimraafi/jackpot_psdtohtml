@@ -1,0 +1,15 @@
+.sticky_header{
+    animation: smooth 1s;
+    background: rgba(11, 0, 27, 0.90);
+    // border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@keyframes smooth{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}

@@ -1,0 +1,15 @@
+.about_banner{
+    h1{
+        @include textdesign(48px,$ff_anton,400,#fcb100);
+        text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+    }
+    a{
+        @include textdesign(24px, $ff_anton, 400, #fff);
+        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+        padding-top: 15px;
+    }
+    i{
+        font-size: 24px;
+        color: #fff;
+    }
+}

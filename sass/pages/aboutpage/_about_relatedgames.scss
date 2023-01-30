@@ -1,0 +1,52 @@
+#related_games_part{
+    padding: 100px 0;
+    background: $bg_a;
+    .related_games_title{
+        margin-bottom: 50px;
+        h2{
+            @include textdesign(50px,$ff_anton,400,#fcb100);
+            text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+        }
+    }
+    .service_card{ 
+        .service_card_img{
+            position: relative;
+            .card_overlay{
+                height: 100%;
+                width: 100%;
+                background: rgba(21, 0, 53, 0.80);
+                position: absolute;
+                left: 0;
+                top: 0;
+                visibility: hidden;
+                opacity: 0;
+                transition: .4s;
+                h3{
+                    @include textdesign(24px, $ff_anton, 400, #fff);
+                    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .card_play_btn{
+                    a{
+                        @include textdesign(24px, $ff_anton, 400, #fff);
+                        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+                        @include btn_design;
+                        position: absolute;
+                        top: 237px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }    
+            } 
+        }
+        &:hover .card_overlay{
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        
+    }  
+}

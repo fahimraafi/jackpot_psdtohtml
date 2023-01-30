@@ -1,0 +1,94 @@
+#faq_tournament{
+    background: $bg_a;
+    padding: 100px 0;
+    .faq_part{
+        .faq_title{
+            h3{
+                @include textdesign(40px,$ff_anton,400,#fcb100);
+                text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+                padding-bottom: 30px;
+                border-bottom: 3px solid #000;
+            }
+        }
+        .faq_items{
+            border: 1px solid rgba(255, 255, 255, 0);
+            ul{
+                li{
+                    button{
+                        @include textdesign(20px,$ff_nunito,400,#ffffff);
+                        display: block;
+                    }
+                }
+            }
+            .dropdown_btn{
+                text-decoration: none;
+                border: none;
+                background: none;
+                text-decoration: none;
+                .icon_one{
+                    padding-left: 200px;
+                    vertical-align: middle;
+                }
+                .icon_two{
+                    padding-left: 112px;
+                    vertical-align: middle;
+                }
+                .icon_three{
+                    padding-left: 250px;
+                    vertical-align: middle;
+                }
+                .icon_four{
+                    padding-left: 250px;
+                    vertical-align: middle;
+                }
+            }
+            .dropdown_container{
+                p{
+                    @include textdesign(16px,$ff_nunito,400,#ffff);
+                    line-height: 26px;
+                    margin-top: 25px;
+                }
+            }
+        }
+        .active{
+            border-radius: 10px;
+            transition: .5s;
+        }
+    }
+    .tournament_part{
+        .tournament_title{
+            h3{
+                @include textdesign(40px,$ff_anton,400,#fcb100);
+                text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+                padding-bottom: 30px;
+                border-bottom: 3px solid #000;
+            }
+        }
+        .time_countdown{
+            h3{
+                @include textdesign (20px,$ff_nunito,600,#ffffff);
+            }
+            h4{
+                @include textdesign(20px,$ff_nunito,600,#fcb100);
+                text-align: center;
+                padding: 10px 5px;
+                border: 1px solid #fcb100;
+                line-height: 26px;
+                border-radius: 5px;
+            }
+        }
+        .participants{
+            margin-top: 30px;
+            .participant_items{
+                border-bottom: 3px solid #000;
+                padding: 20px 0;
+                h3{
+                    @include textdesign(16px,$ff_nunito,400,#ffffff);
+                }
+                p{
+                    @include textdesign(16px,$ff_nunito,400,#ffffff);
+                }
+            }
+        }
+    }
+}

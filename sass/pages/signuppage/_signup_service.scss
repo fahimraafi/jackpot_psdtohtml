@@ -1,0 +1,140 @@
+#signup_service_part{
+    background: url(../images/signup_service_bg.png);
+    padding-top: 200px;
+    padding-bottom: 115px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .process_part{
+        position: relative  ;
+        .process_items{
+            background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+            border-radius: 5px;
+            position: absolute;
+            left: 0;
+            top: -310px;
+            width: 100%;
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+            .processes{
+                background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+                padding: 45px 0;
+                .step_number{
+                    h3{
+                        @include textdesign(50px,$ff_anton,400,#fcb100);
+                        text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+                    }
+                }
+                .step_criteria{
+                    margin-top: 27px;
+                    margin-bottom: 17px;
+                    h4{
+                        @include textdesign(32px, $ff_anton, 400, #fff);
+                        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+                    }
+                }
+                .step_text{
+                    p{
+                        @include textdesign(16px,$ff_nunito,400,#ffffff)
+                    }
+                }
+            }
+            
+        }
+    }
+    .signup_title{
+        padding-bottom: 50px;
+        h2{
+            @include textdesign(32px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+        }
+        p{
+            @include textdesign(16px,$ff_nunito,400,#ffffff);
+            margin-top: 15px; 
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -25px;
+                width: 100px;
+                height: 3px;
+                background: #ffffff;
+                border-radius: 20px;
+            }
+        }
+        
+    }
+    .signup_form_group{
+        position: relative;
+        border-bottom: 1px solid #ffffff;
+        input{
+            background: transparent;
+            border: none;
+            @include textdesign(14px,$ff_nunito,400,#ffffff);
+            padding-bottom: 5px;
+        }
+        label{
+            position: absolute;
+            right: 5px;
+            top: 0;
+            i{
+                color: #ffffff;
+            }
+        }
+    }
+    .signup_button{
+        a{
+            @include textdesign(24px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            @include btn_design;
+            text-align: center;
+        }
+    }
+    .signin_account{
+        h3{
+            display: inline-block;
+            @include textdesign(16px,$ff_nunito,400,#ffffff);
+        }
+        a{
+            @include textdesign(16px,$ff_nunito,400,#ff39dc);
+        }
+    }
+    .reg_using_socialmedia{
+        text-align: right;
+        h3{
+            display: inline-block;
+            @include textdesign(16px,$ff_nunito,400,#ffffff);
+        }
+    }
+    .reg_social_btn{
+        text-align: right;
+        margin-top: 35px;
+        a{
+            height: 50px;
+            width: 50px;
+            background-color: #8032e6;
+            border-radius: 5px;
+            box-shadow: 0px 3px 5px 0px #3a0090;
+            -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+            -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+            transition: .4s;
+            font-size: 19px;
+            color:#ffffff;
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            position: relative;
+            margin-left: 15px;
+            i{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &:hover{
+                background-color: #ff39dc;
+            box-shadow: 0px 3px 5px 0px #661355;
+            -webkit-box-shadow: 0px 5px 5px 0px #661355;
+            -moz-box-shadow: 0px 5px 5px 0px #661355;
+            }
+        }
+    }
+}

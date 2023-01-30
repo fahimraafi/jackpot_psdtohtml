@@ -1,0 +1,78 @@
+#footer_part{
+    background: #0b001b;
+    padding: 60px 0;
+    .about_jackpot{
+        h3{
+            @include subscription_title;
+        }
+        p{
+            @include textdesign(16px,$ff_nunito,200,#ffffff);
+            line-height: 26px;
+            margin: 30px 0;
+        }
+        a{
+            height: 50px;
+            width: 50px;
+            background-color: #8032e6;
+            border-radius: 5px;
+            box-shadow: 0px 3px 5px 0px #3a0090;
+            -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+            -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+            transition: .4s;
+            font-size: 19px;
+            color:#ffffff;
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            position: relative;
+            margin-right: 15px;
+            i{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &:hover{
+                background-color: #ff39dc;
+            box-shadow: 0px 3px 5px 0px #661355;
+            -webkit-box-shadow: 0px 5px 5px 0px #661355;
+            -moz-box-shadow: 0px 5px 5px 0px #661355;
+            }
+        }
+    }
+    .important_links{
+        h3{
+            @include subscription_title;
+            margin-bottom: 30px;
+        }
+        ul{
+            padding-left: 0 !important;
+            li{
+                a{
+                    @include textdesign(16px,$ff_nunito,200,#ffffff);
+                    line-height: 30px;
+                    display: block;
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+    .security_info{
+        h3{
+            @include subscription_title;
+            margin-bottom: 30px;
+        }
+        .secure_banking_text{
+            h3{
+                @include textdesign(16px,$ff_nunito,200,#ffffff);
+                line-height: 16px;
+                padding-top: 15px;
+            }
+        }
+        .registered_user_text{
+            h3{
+                @include textdesign(16px,$ff_nunito,200,#ffffff);
+                line-height: 16px;
+                padding-top: 34px;
+            }
+        }
+    }
+}

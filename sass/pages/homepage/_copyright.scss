@@ -1,0 +1,15 @@
+.copyright_seperator{
+    padding: 1px 0;
+    background: #000000;
+    border-bottom: 1px solid #290a59;
+}
+#copyright_part{
+    padding: 20px 0;
+    background: #0b001b;
+    .copyright_designer{
+        h3{
+            text-align: center;
+            @include textdesign(16px,$ff_nunito,400,#ffffff)
+        }
+    }
+}

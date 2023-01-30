@@ -1,0 +1,39 @@
+#subscription_part{
+    background: linear-gradient(#9747f6, #6d21d7);
+    padding: 30px 0;
+    border-bottom: 6px solid #3a0090;
+    .subscription_title{
+        @include textdesign(32px, $ff_anton, 400, #fff);
+        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+    }
+    .email_form{
+        input[type="email"]{
+            width: 100%;
+            padding:15px 015px 15px;
+            background: transparent;
+            border: 2px solid #3a0090;
+            @include textdesign(14px,$ff_nunito,400,#3a0090)
+        }
+    }
+    .subscribe_offer{
+        a{
+            border: 2px solid #3a0090;
+            margin-top: 24px;
+            padding-top: 14px;
+            padding-bottom: 13px;
+            width: 100%;
+            color: #3a0090;
+            text-align: center;
+            i{
+                vertical-align: middle;
+                
+            }
+        }
+    }
+    .payment_type_icons{
+        img{
+            margin-right: 15px;
+        }
+    }
+}
+
