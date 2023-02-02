@@ -1,0 +1,9 @@
+.forgot_password{
+    a{
+        @include textdesign(16px,$ff_nunito,400,#ffffff);
+        transition: .4s;
+        &:hover{
+            color: #ff39dc;
+        }
+    }
+}

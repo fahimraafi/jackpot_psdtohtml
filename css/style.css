@@ -1059,3 +1059,55 @@ body {
   -webkit-box-shadow: 0px 5px 5px 0px #661355;
   -moz-box-shadow: 0px 5px 5px 0px #661355;
 }
+
+.forgot_password a {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.forgot_password a:hover {
+  color: #ff39dc;
+}
+
+#error_page_banner_part {
+  padding-top: 260px;
+  padding-bottom: 100px;
+  background: #150035;
+}
+#error_page_banner_part .error_content {
+  position: relative;
+}
+#error_page_banner_part .error_content h1 {
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 134px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  line-height: 130px;
+}
+#error_page_banner_part .back_to_home_btn a {
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+}
+#error_page_banner_part .back_to_home_btn a:hover {
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
