@@ -1,21 +1,24 @@
-#error_page_banner_part{
+#error_page_banner_part {
     padding-top: 260px;
     padding-bottom: 100px;
     background: $bg_a;
-    .error_content{
+
+    .error_content {
         position: relative;
-        h1{
+
+        h1 {
             position: absolute;
             left: 48%;
             top: 40%;
             transform: translate(-50%, -50%);
-            @include textdesign(134px,$ff_anton,400,#fcb100);
-            text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+            @include textdesign(134px, $ff_anton, 400, #fcb100);
+            text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
             line-height: 130px;
         }
     }
-    .back_to_home_btn{
-        a{
+
+    .back_to_home_btn {
+        a {
             @include textdesign(24px, $ff_anton, 400, #fff);
             text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
             @include btn_design
