@@ -1111,3 +1111,116 @@ body {
   -webkit-box-shadow: 0px 5px 5px 0px #661355;
   -moz-box-shadow: 0px 5px 5px 0px #661355;
 }
+
+#promotion_banner_part {
+  padding-top: 100px;
+  background: #150035;
+}
+#promotion_banner_part .promo_banner_img {
+  position: relative;
+}
+#promotion_banner_part .promo_banner_img h1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 103px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  line-height: 130px;
+  padding: 0 318px;
+}
+#promotion_banner_part .promo_banner_text {
+  position: absolute;
+  padding-top: 236px;
+}
+#promotion_banner_part .promo_banner_text h2 {
+  font-size: 198px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+#promotion_banner_part .promo_banner_text h3 {
+  font-size: 56px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+#promotion_banner_part .promo_banner_text h4 {
+  font-size: 91px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  line-height: 94px;
+  margin-bottom: 50px;
+}
+#promotion_banner_part .promo_banner_text a {
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  width: 100%;
+}
+#promotion_banner_part .promo_banner_text a:hover {
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+
+#promo_service_part {
+  padding: 165px 0;
+  background: #0b001b;
+}
+#promo_service_part .weekly_promo_discount {
+  position: relative;
+}
+#promo_service_part .weekly_promo_discount .weekend {
+  position: absolute;
+  left: -240px;
+  top: 55px;
+}
+#promo_service_part .weekly_promo_discount .monday {
+  position: absolute;
+  left: -40px;
+  top: -105px;
+}
+#promo_service_part .weekly_promo_discount .tuesday_thursday {
+  position: absolute;
+  left: 200px;
+  top: 55px;
+}
+#promo_service_part .weekly_promo_discount .wednesday {
+  position: absolute;
+  top: 216px;
+  left: -6px;
+}
+#promo_service_part .promo_service_text h3 {
+  font-size: 48px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 60px;
+}
+#promo_service_part .promo_service_text p {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 26px;
+  margin-bottom: 30px;
+}

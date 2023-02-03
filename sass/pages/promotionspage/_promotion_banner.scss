@@ -1,0 +1,82 @@
+#promotion_banner_part{
+    padding-top: 100px;
+    background: $bg_a;
+    .promo_banner_img{
+        position: relative;
+        h1{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            @include textdesign(103px, $ff_anton, 400, #fcb100);
+            text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+            line-height: 130px;
+            padding: 0 318px;
+        }
+    }
+    .promo_banner_text{
+        position: absolute;
+        padding-top: 236px;
+        h2{
+            @include textdesign(198px, $ff_anton, 400, #fcb100);
+            text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+            margin-bottom: 30px;
+        }
+        h3{
+            @include textdesign(56px, $ff_anton, 400, #ffff);
+        }
+        h4{
+            @include textdesign(91px, $ff_anton, 400, #ffff);
+            text-transform: uppercase;
+            line-height: 94px;
+            margin-bottom: 50px;
+        }
+        a{
+            @include textdesign(24px, $ff_anton, 400, #fff);
+            text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
+            @include btn_design;
+            width: 100%;
+            
+        }
+    }
+}
+
+#promo_service_part{
+    padding: 165px 0;
+    background: $bg_b;
+    .weekly_promo_discount{
+        position: relative;
+        .weekend{
+            position: absolute;
+            left: -240px;
+            top: 55px;
+        }
+        .monday{
+            position: absolute;
+            left: -40px;
+            top: -105px;
+        }
+        .tuesday_thursday{
+            position: absolute;
+            left: 200px;
+            top: 55px;
+        }
+        .wednesday{
+            position: absolute;
+            top: 216px;
+            left: -6px;
+        }
+    }
+    .promo_service_text{
+        h3{
+            @include textdesign(48px, $ff_anton, 400, #fcb100);
+            text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6); 
+            margin-bottom: 60px;
+        }
+        p{
+            @include textdesign(20px,$ff_nunito,400,#ffff);
+            line-height: 26px;
+            margin-bottom: 30px;
+        }
+    }
+}
