@@ -1,0 +1,383 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+    .navbar-toggler {
+        margin-top: 60px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+    .navbar-nav{
+        text-align: center;
+        background: rgba(11, 0, 27, 0.90);
+        border-radius: 20px;
+    }
+    .navbar .nav-link {
+        margin-top: 4px;
+        margin-right: 0;
+    }
+    .navbar .nav_icons {
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+
+    #banner_part {
+        padding: 175px 0 400px 0;
+    }
+
+    #banner_part .roulette_wheel_image img {
+        left: -3px;
+        top: 30px;
+        width: 300px;
+    }
+    .wheel_result{
+        margin-top: 350px;
+    }
+    #banner_part .result_top_text p {
+        text-align: center;
+    }
+    #banner_part .result_number .glow {
+        font-size: 175px;
+    }
+
+    #service_part .process_part .process_items {
+        top: -535px;
+    }
+    .service_heading {
+        margin-top: 350px;
+    }
+    .step_number{
+        padding-top: 35px;
+    }
+    .step_text{
+        padding-bottom: 50px;
+    }
+    .service_card{
+        margin-bottom: 20px;
+    }
+    #service_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 170px;
+    }
+    
+    #spin_part .free_spin_text .free_spin_heading {
+        margin-top: -30px;
+    }
+    .free_spin_text{
+        text-align: center;
+    }
+    #spin_part .free_spin_text h3 {
+        padding: 0 25px;
+    }
+    #spin_part .free_spin_text p {
+        padding: 0 25px;
+    }
+    #spin_part .free_spin_text a {
+        margin-left: 0;
+    }
+    #pricing_part .pricing_item .pricing_card {
+        margin-bottom: 50px;
+    }
+    #pricing_part .pricing_item .pricing_card .plan_details .choose_btn a {
+        padding: 10px 15px;
+    }
+    .featured_text{
+        margin-top: 25px;
+    }
+    #faq_tournament {
+        padding: 50px 0;
+    }
+    #faq_tournament .faq_part .faq_title h3 {
+        text-align: center;
+        line-height: 45px;
+    }
+    #faq_tournament .tournament_part .tournament_title h3 {
+        text-align: center;
+        line-height: 45px;
+    }
+    #faq_tournament .tournament_part .time_countdown h3 {
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .time_countdown h4 {
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items {
+        text-align: center;
+    }
+    #faq_tournament .tournament_part .participants .participant_items h3 {
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items p {
+        margin-top: 10px;
+    }
+    #subscription_part .subscription_title {
+        text-align: center;
+    }
+    #subscription_part .subscribe_offer a {
+        margin-bottom: 20px;
+    }
+    #subscription_part .subscribe_offer a i {
+        font-size: 25px;
+    }
+    .payment_type_icons{
+        text-align: center;
+    }
+    .payment_type_icons img{
+        margin-bottom: 10px;
+    }
+    #footer_part {
+        padding: 20px 0;
+    }
+    .about_jackpot{
+        text-align: center;
+    }
+    #footer_part .about_jackpot a {
+        margin-left: 5px;
+    }
+    .important_links{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .security_info{
+        text-align: center;
+    }
+    #footer_part .security_info .registered_user_text h3 {
+        padding-top: 0px;
+    }
+    .back-to-top {
+        right: 25px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+    .navbar-toggler {
+        margin-top: 60px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+    .navbar-nav{
+        text-align: center;
+        background: rgba(11, 0, 27, 0.90);
+        border-radius: 20px;
+    }
+    .navbar .nav-link {
+        margin-top: 4px;
+        margin-right: 0;
+    }
+    .navbar .nav_icons {
+        margin-top: 5px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    #banner_part .roulette_wheel_image img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 490px;
+        transform: translateX(-50%);
+    }
+    .wheel_result{
+        margin-top: 480px;
+    }
+    #banner_part .result_top_text {
+        text-align: center;
+    }
+    #banner_part .result_bottom_text p {
+        padding: 0 80px;
+    }
+    #banner_part {
+        padding: 175px 0 450px 0;
+    }
+    #service_part .process_part .process_items {
+        top: -600px;
+    }
+    .step_number{
+        margin-top: 35px;
+    }
+    .step_text{
+        margin-bottom: 35px;
+    }
+    .service_heading{
+        margin-top: 190px;
+    }
+    .service_card{
+        margin-bottom: 30px;
+    }
+    #service_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 300px;
+    }
+    #spin_part .free_spin_text .free_spin_heading {
+        margin-top: -75px;
+    }
+    .free_spin_text{
+        text-align: center;
+    }
+    #spin_part .free_spin_text h3 {
+        padding: 0 54px;
+        margin-top: -60px;
+    }
+    #spin_part .free_spin_text p {
+        padding: 0 54px;
+    }
+    #spin_part .free_spin_text a {
+        margin-left: 0;
+    }
+    #pricing_part {
+        padding: 10px 0 70px 0;
+    }
+    .pricing_card{
+        margin-bottom: 50px;
+    }
+    .featured_text{
+        margin-top: 25px;
+    }
+    #faq_tournament {
+        padding: 50px 0;
+    }
+    .faq_title{
+        text-align: center;
+    }
+    #faq_tournament .faq_part .faq_items .dropdown_container p {
+        text-align: center;
+    }
+    .tournament_part{
+        text-align: center;
+    }
+    .tournament_title{
+        margin-top: 20px;
+    }
+    #faq_tournament .tournament_part .time_countdown h3 {
+        margin-bottom: 20px;
+    }
+    #faq_tournament .tournament_part .time_countdown h4 {
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items h3 {
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items p {
+        margin-top: 10px;
+    }
+    .subscription_title{
+        text-align: center;
+    }
+    #subscription_part .subscribe_offer a i {
+        font-size: 30px;
+    }
+    .payment_method{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .about_jackpot{
+        text-align: center;
+    }
+    #footer_part .about_jackpot p {
+        padding: 0 35px;
+    }
+    .important_links{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .security_info{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #footer_part .security_info .registered_user_text h3 {
+        padding-top: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-brand img{
+        width: 300px;
+    }
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+    .navbar-toggler {
+        margin-top: 75px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+    .navbar-nav{
+        text-align: center;
+        background: rgba(11, 0, 27, 0.90);
+        border-radius: 20px;
+    }
+    .navbar .nav-link {
+        margin-top: 4px;
+        margin-right: 0;
+    }
+    .navbar .nav_icons {
+        margin-top: 5px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    #banner_part .roulette_wheel_image img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 490px;
+        transform: translateX(-50%);
+    }
+    .wheel_result{
+        margin-top: 480px;
+    }
+    #banner_part .result_top_text {
+        text-align: center;
+    }
+    #banner_part .result_bottom_text p {
+        padding: 0 80px;
+    }
+    #banner_part {
+        padding: 175px 0 450px 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
