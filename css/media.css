@@ -39,9 +39,10 @@
     }
 
     #banner_part .roulette_wheel_image img {
-        left: -3px;
+        left: 50%;
         top: 30px;
         width: 300px;
+        transform: translateX(-50%);
     }
     .wheel_result{
         margin-top: 350px;
@@ -122,6 +123,9 @@
     #faq_tournament .tournament_part .participants .participant_items p {
         margin-top: 10px;
     }
+    .tournament_title{
+        margin-top: 30px;
+    }
     #subscription_part .subscription_title {
         text-align: center;
     }
@@ -159,6 +163,169 @@
     .back-to-top {
         right: 25px;
     }
+    .about_service_img{
+        margin-top: 380px;
+    }
+    .about_service_text {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about_service_text p {
+        padding-bottom: 40px;
+    }
+    .about_service_text .watch_demo {
+        margin-top: 20px;
+    }
+    #related_games_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 180px;
+    }
+    .game_card_responsive_mt{
+        margin-top: 350px;
+    }
+    .about_banner h1 {
+        line-height: 53px;
+    }
+    .pricing_item_mt{
+        margin-top: 350px;
+    }
+    .mt_remover_pricing{
+        margin-top: 0 !important;
+    }
+
+    /* CONTACT PAGE START     */
+    #contact_service_part .process_part .process_items {
+        top: -650px;
+    }
+    .contact_card{
+        text-align: center;
+    }
+    .resposive_contact_mt{
+        margin-top: 270px;
+    }
+    .contact_card{
+        padding-top: 30px;
+    }
+    #contact_service_part .contact_info_text h3 {
+        padding-top: 20px;
+    }
+    /* CONTACT PAGE END */
+
+    /* SIGN UP PAGE START */
+    #signup_service_part {
+        padding-bottom: 41px;
+        
+    }
+    #signup_service_part .process_part .process_items {
+        top: -590px;
+    }
+    #signup_service_part .signup_title {
+        margin-top: 340px;
+    }
+    .resposive_mt{
+        margin-top: 30px !important;
+    }
+    .signin_account{
+        text-align: center;
+    }
+    .reg_using_socialmedia{
+        text-align: center !important;
+    }
+    .reg_social_btn{
+        text-align: center !important;
+    }
+    /* SIGN UP PAGE END */
+
+    /* LOGIN PAGE START */
+    .forgot_password{
+        text-align: center;
+    }
+    /* LOGIN PAGE END */
+
+    /* PROMOTION PAGE START */
+    #promotion_banner_part .promo_banner_img h1 {
+        left: -244px;
+        font-size: 25px;
+        line-height: 26px;
+    }
+    #promotion_banner_part .promo_banner_text {
+        right: 10px;
+        top: -104px;
+    }
+    #promotion_banner_part .promo_banner_text h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    #promotion_banner_part .promo_banner_text h3 {
+        font-size: 20px;
+    }
+    #promotion_banner_part .promo_banner_text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    #promotion_banner_part .promo_banner_text a {
+        font-size: 16px;
+    }
+    #promo_service_part {
+        padding: 165px 0 50px 0;
+    }
+    #promo_service_part .weekly_promo_discount .monday {
+        left: 50%;
+        top: -159px;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .monday img{
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend {
+        left: 0;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend img{
+        width: 120px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday {
+        position: absolute;
+        left: 161px;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday img {
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .wednesday {
+        top: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .wednesday img{
+        width: 120px;
+    }
+    .promo_service_text{
+        text-align: center;
+        margin-top: 90px;
+    }
+    #promo_service_part .promo_service_text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    #promo_service_part .promo_service_text p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    /* PROMOTION PAGE END */
+
+    /* 404 ERROR PAGE START */
+    #error_page_banner_part {
+        padding-top: 190px;
+        padding-bottom: 50px;
+    }
+    #error_page_banner_part .error_content h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    /* 404 ERROR PAGE END */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -286,6 +453,9 @@
     #faq_tournament .tournament_part .participants .participant_items p {
         margin-top: 10px;
     }
+    .tournament_title{
+        margin-top: 30px;
+    }
     .subscription_title{
         text-align: center;
     }
@@ -313,6 +483,158 @@
     #footer_part .security_info .registered_user_text h3 {
         padding-top: 0;
     }
+
+    /* ABOUT PAGE START */
+    .about_service_img{
+        margin-top: 277px;
+    }
+    .about_service_text{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #related_games_part {
+        padding: 50px 0;
+    }
+    #related_games_part .service_card .service_card_img .card_overlay h3 {
+        font-size: 40px;
+    }
+    #related_games_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 300px;
+    }
+    /* ABOUT PAGE END */
+
+    /* GAMES PAGE START */
+    .game_card_responsive_mt{
+        margin-top: 250px;
+    }
+    #service_part .service_card .service_card_img .card_overlay h3 {
+        font-size: 40px;
+    }
+    /* GAMES PAGE END */
+
+    /* PRICING PAGE START */
+    .pricing_item_mt{
+        margin-top: 250px;
+    }
+    .mt_remover_pricing{
+        margin-top: 0 !important;
+    }
+    /* PRICING PAGE END */
+
+    /* SIGNUP PAGE START */
+    #signup_service_part .process_part .process_items {
+        top: -640px;
+    }
+    #signup_service_part {
+        padding-bottom: 50px;
+    }
+    #signup_service_part .signup_title {
+        margin-top: 200px;
+    }
+    .resposive_mt{
+        margin-top: 30px !important;
+    }
+    .signin_account{
+        text-align: center;
+    }
+    .reg_using_socialmedia{
+        text-align: center !important;
+    }
+    .reg_social_btn{
+        text-align: center !important;
+    }
+    /* SIGNUP PAGE END */
+
+    /* LOGIN PAGE START */
+    .forgot_password{
+        text-align: center;
+    }
+    .signin_account{
+        text-align: center !important;
+    }
+    /* LOGIN PAGE END */
+
+    /* PROMOTIONS PAGE START */
+    #promotion_banner_part .promo_banner_img h1 {
+        left: -191px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #promotion_banner_part .promo_banner_text {
+        right: 77px;
+        top: -26px;
+    }
+    #promotion_banner_part .promo_banner_text h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    #promotion_banner_part .promo_banner_text h3 {
+        font-size: 20px;
+    }
+    #promotion_banner_part .promo_banner_text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    #promotion_banner_part .promo_banner_text a {
+        font-size: 16px;
+    }
+    #promo_service_part {
+        padding: 165px 0 50px 0;
+    }
+    #promo_service_part .weekly_promo_discount .monday {
+        left: 50%;
+        top: -159px;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .monday img{
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend {
+        left: 0;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend img{
+        width: 120px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday {
+        position: absolute;
+        left: 375px;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday img {
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .wednesday {
+        top: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .wednesday img{
+        width: 120px;
+    }
+    .promo_service_text{
+        text-align: center;
+        margin-top: 90px;
+    }
+    #promo_service_part .promo_service_text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    #promo_service_part .promo_service_text p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    /* PROMOTIONS PAGE END */
+
+    /* 404 ERROR PAGE START */
+    #error_page_banner_part .error_content h1 {
+        font-size: 100px;
+        line-height: 98px;
+    }
+    /* 404 ERROR PAGE END */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -355,21 +677,273 @@
         position: absolute;
         left: 50%;
         top: 0;
-        width: 490px;
+        width: 630px;
         transform: translateX(-50%);
     }
     .wheel_result{
-        margin-top: 480px;
+        margin-top: 635px;
     }
     #banner_part .result_top_text {
         text-align: center;
     }
     #banner_part .result_bottom_text p {
         padding: 0 80px;
+        margin-top: 60px;
     }
     #banner_part {
-        padding: 175px 0 450px 0;
+        padding: 175px 0 420px 0;
     }
+    #service_part .process_part .process_items {
+        top: -560px;
+    }
+    .step_number{
+        margin-top: 30px;
+    }
+    .step_text{
+        margin-bottom: 30px;
+    }
+    .service_heading {
+        margin-top: 200px;
+    }
+    .service_card{
+        margin-bottom: 30px;
+    }
+    #service_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 380px;
+    }
+    #service_part .service_card .service_card_img .card_overlay h3 {
+        font-size: 40px;
+    }
+    #spin_part .free_spin_text .free_spin_heading {
+        margin-top: -100px;
+    }
+    #spin_part .free_spin_text h3 {
+        padding-left: 0;
+    }
+    #spin_part .free_spin_text p {
+        padding-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .free_spin_text{
+        text-align: center;
+    }
+    #spin_part .free_spin_text a {
+        margin-left: 0;
+    }
+    #pricing_part {
+        padding: 30px 0 50px 0;
+    }
+    .pricing_card{
+        margin-bottom: 40px;
+    }
+    .featured_text{
+        margin-top: 20px;
+    }
+    .faq_part{
+        text-align: center;
+    }
+    .tournament_part{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #faq_tournament .tournament_part .time_countdown h3 {
+        margin-bottom: 20px;
+    }
+    #faq_tournament .tournament_part .time_countdown h4 {
+        margin-bottom: 20px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #faq_tournament .tournament_part .participants .participant_items p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .tournament_title{
+        margin-top: 30px;
+    }
+    .subscribe_offer{
+        text-align: center;
+    }
+    .payment_method{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about_jackpot{
+        text-align: center;
+    }
+    .important_links{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .security_info{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #footer_part .security_info .registered_user_text h3 {
+        padding-top: 0;
+    }
+
+    /* ABOUT PAGE START */
+    .about_service_img{
+        margin-top: 277px;
+    }
+    .about_service_text{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #related_games_part {
+        padding: 50px 0;
+    }
+    #related_games_part .service_card .service_card_img .card_overlay h3 {
+        font-size: 40px;
+    }
+    #related_games_part .service_card .service_card_img .card_overlay .card_play_btn a {
+        top: 400px;
+    }
+    /* ABOUT PAGE END */
+
+    /* GAMES PAGE START */
+    .game_card_responsive_mt{
+        margin-top: 250px;
+    }
+    #service_part .service_card .service_card_img .card_overlay h3 {
+        font-size: 40px;
+    }
+    /* GAMES PAGE END */
+
+    /* PRICING PAGE START */
+    .pricing_item_mt{
+        margin-top: 250px;
+    }
+    .mt_remover_pricing{
+        margin-top: 0 !important;
+    }
+    /* PRICING PAGE END */
+
+    /* SIGNUP PAGE START */
+    #signup_service_part .process_part .process_items {
+        top: -640px;
+    }
+    #signup_service_part {
+        padding-bottom: 50px;
+    }
+    #signup_service_part .signup_title {
+        margin-top: 200px;
+    }
+    .resposive_mt{
+        margin-top: 30px !important;
+    }
+    .signin_account{
+        text-align: center;
+    }
+    .reg_using_socialmedia{
+        text-align: center !important;
+    }
+    .reg_social_btn{
+        text-align: center !important;
+    }
+    /* SIGNUP PAGE END */
+
+    /* LOGIN PAGE START */
+    .signup_title{
+        text-align: center;
+    }
+    #signup_service_part .signup_title p::after {
+        left: 50%;;
+        transform: translateX(-50%);
+    }
+    .forgot_password{
+        text-align: center;
+    }
+    .signin_account{
+        text-align: center !important;
+    }
+    /* LOGIN PAGE END */
+
+    /* PROMOTIONS PAGE START */
+    #promotion_banner_part .promo_banner_img h1 {
+        left: -191px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #promotion_banner_part .promo_banner_text {
+        right: 77px;
+        top: -26px;
+    }
+    #promotion_banner_part .promo_banner_text h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    #promotion_banner_part .promo_banner_text h3 {
+        font-size: 20px;
+    }
+    #promotion_banner_part .promo_banner_text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    #promotion_banner_part .promo_banner_text a {
+        font-size: 16px;
+    }
+    #promo_service_part {
+        padding: 165px 0 50px 0;
+    }
+    #promo_service_part .weekly_promo_discount .monday {
+        left: 50%;
+        top: -159px;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .monday img{
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend {
+        left: 0;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .weekend img{
+        width: 120px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday {
+        position: absolute;
+        left: 375px;
+        top: -100px;
+    }
+    #promo_service_part .weekly_promo_discount .tuesday_thursday img {
+        width: 150px;
+    }
+    #promo_service_part .weekly_promo_discount .wednesday {
+        top: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #promo_service_part .weekly_promo_discount .wednesday img{
+        width: 120px;
+    }
+    .promo_service_text{
+        text-align: center;
+        margin-top: 90px;
+    }
+    #promo_service_part .promo_service_text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    #promo_service_part .promo_service_text p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    /* PROMOTIONS PAGE END */
+
+    /* 404 ERROR PAGE START */
+    #error_page_banner_part .error_content h1 {
+        font-size: 100px;
+        line-height: 98px;
+    }
+    /* 404 ERROR PAGE END */
 }
 
 /* Large devices (desktops, 992px and up) */

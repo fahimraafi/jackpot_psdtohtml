@@ -10,50 +10,30 @@
                 border-bottom: 3px solid #000;
             }
         }
-        .faq_items{
-            border: 1px solid rgba(255, 255, 255, 0);
-            ul{
-                li{
-                    button{
-                        @include textdesign(20px,$ff_nunito,400,#ffffff);
-                        display: block;
+        .faq_question_part{
+            .accordion-item{
+                margin-top: 30px;
+                background: $bg_a;
+                border: 2px solid #fcb100;
+                .accordion-button{
+                    background: $bg_a;
+                    border: none !important;
+                    @include textdesign (20px,$ff_nunito,600,#ffffff);
+                    line-height: 30px;
+                    &:focus{
+                        box-shadow: none !important;
+                    }
+                    &::after{
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3C!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath fill='%23fff' d='M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z'/%3E%3C/svg%3E");
+                        background-size: 15px;
+                        background-position: center center;
                     }
                 }
-            }
-            .dropdown_btn{
-                text-decoration: none;
-                border: none;
-                background: none;
-                text-decoration: none;
-                .icon_one{
-                    padding-left: 200px;
-                    vertical-align: middle;
-                }
-                .icon_two{
-                    padding-left: 112px;
-                    vertical-align: middle;
-                }
-                .icon_three{
-                    padding-left: 250px;
-                    vertical-align: middle;
-                }
-                .icon_four{
-                    padding-left: 250px;
-                    vertical-align: middle;
+                .accordion-body{
+                    @include textdesign (16px,$ff_nunito,400,#ffffff);
                 }
             }
-            .dropdown_container{
-                p{
-                    @include textdesign(16px,$ff_nunito,400,#ffff);
-                    line-height: 26px;
-                    margin-top: 25px;
-                }
-            }
-        }
-        .active{
-            border-radius: 10px;
-            transition: .5s;
-        }
+        }   
     }
     .tournament_part{
         .tournament_title{

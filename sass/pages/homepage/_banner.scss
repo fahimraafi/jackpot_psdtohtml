@@ -21,35 +21,40 @@
     }
 
     .result_number {
-        .glow {
-            font-size: 330px;
-            font-family: $ff_anton;
-            font-weight: 400;
-            margin: 40px 0;
-            // background-image: linear-gradient(to top, #e07e1e, #fcb100);
-            // color: transparent;
-            // background-clip: text;
-            // -webkit-background-clip: text;
-            // text-shadow: 5px 5px 10px rgba(251, 54, 215, 0.10);
-            color: #fcb100;
-            text-align: center;
-            animation: glow 1s ease-in-out infinite alternate;
+        // .glow {
+        //     font-size: 330px;
+        //     font-family: $ff_anton;
+        //     font-weight: 400;
+        //     margin: 40px 0;
+        //     // background-image: linear-gradient(to top, #e07e1e, #fcb100);
+        //     // color: transparent;
+        //     // background-clip: text;
+        //     // -webkit-background-clip: text;
+        //     // text-shadow: 5px 5px 10px rgba(251, 54, 215, 0.10);
+        //     color: #fcb100;
+        //     text-align: center;
+        //     animation: glow 1s ease-in-out infinite alternate;
 
-            @keyframes glow {
-                from {
-                    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff39dc, 0 0 20px #ff39dc, 0 0 25px #ff39dc, 0 0 30px #ff39dc, 0 0 35px #ff39dc;
-                }
+        //     @keyframes glow {
+        //         from {
+        //             text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff39dc, 0 0 20px #ff39dc, 0 0 25px #ff39dc, 0 0 30px #ff39dc, 0 0 35px #ff39dc;
+        //         }
 
-                to {
-                    text-shadow: 0 0 5px #fff, 0 0 10px #ff39dc, 0 0 15px #ff39dc, 0 0 20px #ff39dc, 0 0 25px #ff39dc, 0 0 30px #ff39dc, 0 0 35px #ff39dc;
-                }
-            }
+        //         to {
+        //             text-shadow: 0 0 5px #fff, 0 0 10px #ff39dc, 0 0 15px #ff39dc, 0 0 20px #ff39dc, 0 0 25px #ff39dc, 0 0 30px #ff39dc, 0 0 35px #ff39dc;
+        //         }
+        //     }
+        // }
+        h1{
+            @include textdesign(331px,$ff_anton,400,transparent);
+            @include gradientText;
+            margin: -77px 0px -69px -49px;
         }
     }
 
     .result_bottom_text {
         p {
-            @include textdesign(16px, 400, $ff_nunito, #ffff);
+            @include textdesign(16px, $ff_nunito, 400, #ffff);
             line-height: 26px;
         }
     }

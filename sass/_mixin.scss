@@ -26,3 +26,18 @@
     @include textdesign(32px, $ff_anton, 400, #fff);
     text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.60);
 }
+
+// GRADIENT TITLE DESIGN
+@mixin gradientText (){
+    line-height: normal;
+    background-image: linear-gradient(#fcb100 0%, #fcb100 48.75%, #db7209 50.5%, #feb510 100%);
+    display: inline-block;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(255, 219, 40, 1);
+    filter: drop-shadow(0 0 30px rgba(255, 0, 230, 0.45))
+            drop-shadow(0 10px rgba(17, 0, 16, 0.75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
